@@ -27,5 +27,5 @@ pybot --variable USER:[YOUR_GITHUB_USER_NAME] --variable PASSWORD:[YOUR_GITHUB_P
 ```
 
 > Notes:
-> * YOUR_EXIST_GITHUB_REPO should be created before running tests
-> * You'd better alread add SSH key to GitHub before running tests
+> * YOUR_EXIST_GITHUB_REPO should be **created** before running tests
+> * Make sure you add **SSH key** to your GitHub before running tests
