@@ -2,7 +2,14 @@
 
 ## Preconditions
 
-A precondition for running the tests is having [Robot Framework](http://robotframework.org) and [RequestsLibrary](https://github.com/bulkan/robotframework-requests/) installed, and they in turn require [Python](https://www.python.org/) and [Git](http://www.git-scm.com/).
+A precondition for running the tests is having [Robot Framework](http://robotframework.org) and [RequestsLibrary](https://github.com/bulkan/robotframework-requests/) installed, and they in turn require [Python](https://www.python.org/).
+
+Also these are required:
+
+* [Git](http://www.git-scm.com/)
+* Some linux tools, like base64 
+
+Acknowledge: All these tests are tested on Ubuntu 14.04.
 
 Here's an example installation script for Ubuntu:
 
@@ -20,7 +27,6 @@ pip install robotframework-requests
 ## Running tests
 
 To execute all tests use:
-
 
 ``` 
 pybot --variable USER:[YOUR_GITHUB_USER_NAME] --variable PASSWORD:[YOUR_GITHUB_PASSWORD] --variable YOUR_GITHUB_REPO:[YOUR_EXIST_GITHUB_REPO] .
