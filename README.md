@@ -19,7 +19,11 @@ pip install robotframework-requests
 
 ## Running tests
 
-``` pybot --variable USER:[YOUR_GITHUB_USER_NAME] --variable PASSWORD:[YOUR_GITHUB_PASSWORD] --variable YOUR_GITHUB_REPO:[YOUR_EXIST_GITHUB_REPO] .
+To execute all tests use:
+
+
+``` 
+pybot --variable USER:[YOUR_GITHUB_USER_NAME] --variable PASSWORD:[YOUR_GITHUB_PASSWORD] --variable YOUR_GITHUB_REPO:[YOUR_EXIST_GITHUB_REPO] .
 
 > Notes:
 > * YOUR_EXIST_GITHUB_REPO should be created before running tests
