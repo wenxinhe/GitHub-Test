@@ -38,5 +38,7 @@ pybot --variable USER:[YOUR_GITHUB_USER_NAME] --variable PASSWORD:[YOUR_GITHUB_P
 
 ## Report
 [report](report/report.html)
+
 [log](report/log.html)
-[!ScreenShot](Screenshot from 2015-11-09 09:15:38.png)
+
+[ScreenShot](Screenshot from 2015-11-09 09:15:38.png)
