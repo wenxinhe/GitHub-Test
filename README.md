@@ -9,7 +9,7 @@ Also these are required:
 * [Git](http://www.git-scm.com/)
 * Some linux tools, like base64 
 
-All these are tested on Ubuntu 14.04.
+All these are tested on **Ubuntu 14.04** via **GitHub api v3**.
 
 Here's an example installation script for Ubuntu:
 
